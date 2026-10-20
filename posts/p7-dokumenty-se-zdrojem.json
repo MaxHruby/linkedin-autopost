@@ -1,0 +1,65 @@
+{
+ "id": "p7-dokumenty-se-zdrojem",
+ "label": "Dokumenty se zdrojem",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Poznáváte se?",
+   "title": "Hory dokumentů a nikdo v nich *nic nenajde.*",
+   "sub": "Proč nestačí nahrát soubory do obecného AI nástroje."
+  },
+  {
+   "type": "statement",
+   "title": "Obecný nástroj odpoví. Ale neřekne odkud.",
+   "body": [
+    "Zkusili jste nahrát dokumenty do obecného AI nástroje? Odpovědi často nemají zdroj, nebo vycházejí z paměti modelu, ne z vašich podkladů."
+   ]
+  },
+  {
+   "type": "list",
+   "title": "Co dělá firemní znalostní báze jinak",
+   "items": [
+    {
+     "h": "Hledá významem",
+     "p": "Najde pasáž, i když lidé píšou jinými slovy, než jsou v dokumentu."
+    },
+    {
+     "h": "Ukáže zdroj",
+     "p": "U každé odpovědi dokument, stranu a verzi."
+    },
+    {
+     "h": "Přizná, že neví",
+     "p": "Když podklad chybí, neodpovídá z fantazie."
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "title": "Tři věci, které rozhodnou o kvalitě",
+   "items": [
+    {
+     "h": "Aktuálnost verzí",
+     "p": "Které znění dokumentu platí a které je zastaralé."
+    },
+    {
+     "h": "Oprávnění",
+     "p": "Kdo co smí vidět. Agent nesmí prozradit víc než člověk."
+    },
+    {
+     "h": "Měření na vašich otázkách",
+     "p": "Správnost se ověřuje na reálných dotazech, ne na ukázkách."
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Máte dokumenty, které nikdo nemůže najít?",
+   "lines": [
+    "Probereme, co máte a co by to dalo. Úvodní hovor 30 minut, zdarma.",
+    "Znalostní báze a AI agenti od 25 000 Kč."
+   ],
+   "chip": "dokumenty",
+   "foot": "mhruby.eu/data-rag"
+  }
+ ]
+}

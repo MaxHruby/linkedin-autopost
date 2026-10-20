@@ -1,0 +1,46 @@
+{
+ "id": "p9-audity-ktere-nelzou",
+ "label": "Za oponou",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Za oponou",
+   "title": "Jak dělám audity, *které nelžou.*",
+   "sub": "Pravidla, která jsem si dal, než jsem poslal první."
+  },
+  {
+   "type": "point",
+   "n": "1",
+   "h": "Maximálně pět ověřitelných faktů.",
+   "p": "Každý má odkaz a screenshot. *Všechno ostatní označím jako názor nebo otázku.*"
+  },
+  {
+   "type": "point",
+   "n": "2",
+   "h": "Do firmy nevidím, tak se ptám.",
+   "p": "Marži ani vnitřní procesy zvenku netvrdím. Místo diagnózy píšu dvě otázky pro majitele."
+  },
+  {
+   "type": "point",
+   "n": "3",
+   "h": "Nález se dá ověřit za minutu.",
+   "p": "Člověk proklikne odkazy a porovná větu s živou stránkou. Stroj hlídá zbytek."
+  },
+  {
+   "type": "point",
+   "n": "4",
+   "h": "První čtyři audity kontroluji do hloubky.",
+   "p": "Větu po větě proti živému webu. *Důvěra se vydělává, neslibuje.*"
+  },
+  {
+   "type": "cta",
+   "title": "Chcete takový audit pro svůj e-shop?",
+   "lines": [
+    "7 konkrétních příležitostí, každá s odkazem na to, co jsem viděl.",
+    "Zdarma a nezávazně."
+   ],
+   "chip": "audit",
+   "foot": "mhruby.eu"
+  }
+ ]
+}

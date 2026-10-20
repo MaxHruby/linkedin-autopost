@@ -1,0 +1,62 @@
+{
+ "id": "p12-jak-probiha-spoluprace",
+ "label": "Jak probíhá spolupráce",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Postup",
+   "title": "Jak probíhá spolupráce. *Pět kroků, žádná černá skříňka.*",
+   "sub": "Od prvního hovoru po provoz."
+  },
+  {
+   "type": "list",
+   "title": "Od hovoru po stavbu",
+   "items": [
+    {
+     "h": "Úvodní hovor",
+     "p": "30 minut, zdarma. Popíšete, co řešíte, já řeknu, jestli a jak můžu pomoct. Bez prodejního tlaku."
+    },
+    {
+     "h": "Návrh a nabídka",
+     "p": "Písemně: co se udělá, co dostanete, za kolik a dokdy. Cena a rozsah platí před začátkem."
+    },
+    {
+     "h": "Stavba po krocích",
+     "p": "Průběžně ukazuji hotové části. Zpětná vazba se zapracovává hned."
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "title": "Předání a péče",
+   "items": [
+    {
+     "h": "Předání",
+     "p": "Dostanete kód, přístupy, dokumentaci a krátké zaškolení."
+    },
+    {
+     "h": "Péče (volitelně)",
+     "p": "Po spuštění zůstávám k ruce: měření, ladění a rozvoj podle potřeb firmy."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "title": "S kým se mi pracuje dobře. A s kým ne.",
+   "body": [
+    "*Dobře:* máte konkrétní problém, který stojí čas nebo peníze, a berete AI jako nástroj, ne jako zázrak.",
+    "*Spíš ne:* chcete garanci prvního místa na Googlu, nebo nejlevnější variantu bez ohledu na kvalitu."
+   ],
+   "dark": true
+  },
+  {
+   "type": "cta",
+   "title": "Pojďme to probrat.",
+   "lines": [
+    "Úvodní hovor 30 minut, online, nezávazně. Odpovídám do 24 hodin."
+   ],
+   "chip": "hovor",
+   "foot": "mhruby.eu/kontakt"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "p8-objednavky-z-emailu",
+ "label": "Objednávky z e-mailu",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Modelová situace",
+   "title": "Objednávky chodí e-mailem a *dvě kolegyně je přepisují.*",
+   "sub": "Jak to může vypadat před a po. Ilustrativní scénář, ne konkrétní klient."
+  },
+  {
+   "type": "compare",
+   "title": "Dnes a po automatizaci",
+   "left": {
+    "label": "Dnes",
+    "items": [
+     "Přepisování zabere část pracovního dne.",
+     "Překlepy se projeví až při expedici.",
+     "Špičky v sezóně způsobují zpoždění."
+    ]
+   },
+   "right": {
+    "label": "Po automatizaci",
+    "items": [
+     "Rutinní objednávky se zakládají samy.",
+     "Kolegyně řeší jen výjimky.",
+     "Každý krok je zaznamenaný a dohledatelný."
+    ]
+   }
+  },
+  {
+   "type": "list",
+   "title": "Co se mezi tím děje",
+   "items": [
+    {
+     "h": "AI přečte e-mail i přílohu",
+     "p": "Vytáhne položky a množství."
+    },
+    {
+     "h": "Zkontroluje je",
+     "p": "Proti katalogu a zákazníkovi."
+    },
+    {
+     "h": "Jasné objednávky založí v systému",
+     "p": "Bez ručního zásahu."
+    },
+    {
+     "h": "Nejasné pošle kolegyni",
+     "p": "S označením, co chybí."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "title": "AI navrhuje, pravidla kontrolují, *člověk potvrzuje* citlivé kroky.",
+   "body": [
+    "Špatná data se zastaví dřív, než se rozlezou dál. O výjimkách se dozvíte hned."
+   ],
+   "dark": true
+  },
+  {
+   "type": "cta",
+   "title": "Máte podobný proces?",
+   "lines": [
+    "Odpovězte na tři otázky: co děláte ručně, kolik času to bere a jaké nástroje používáte."
+   ],
+   "chip": "mini-audit",
+   "foot": "mhruby.eu/mini-audit"
+  }
+ ]
+}

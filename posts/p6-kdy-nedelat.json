@@ -1,0 +1,51 @@
+{
+ "id": "p6-kdy-nedelat",
+ "label": "Kdy to nedává smysl",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Kdy to nedává smysl",
+   "title": "Kdy *nedělat* automatizaci ani AI agenta",
+   "sub": "Radši to řeknu hned, než abyste zbytečně platili."
+  },
+  {
+   "type": "point",
+   "n": "1",
+   "h": "Proces se mění každý týden.",
+   "p": "Nejdřív ho ustalte. Automatizace by se pořád přepisovala."
+  },
+  {
+   "type": "point",
+   "n": "2",
+   "h": "Děláte pár kroků měsíčně.",
+   "p": "Ruční práce vyjde levněji než stavba a údržba scénáře."
+  },
+  {
+   "type": "point",
+   "n": "3",
+   "h": "Dotazů je pár týdně.",
+   "p": "Stačí dobře napsané FAQ. Agent se nevyplatí."
+  },
+  {
+   "type": "point",
+   "n": "4",
+   "h": "Chybí podklady i člověk, který ví, jak se věci dělají.",
+   "p": "Agent nevymyslí postup, který neexistuje."
+  },
+  {
+   "type": "point",
+   "n": "5",
+   "h": "Chcete stoprocentní přesnost bez lidské kontroly.",
+   "p": "U rozhodnutí s právními nebo finančními dopady má poslední slovo člověk. AI navrhne, člověk potvrdí."
+  },
+  {
+   "type": "cta",
+   "title": "Nejste si jistí, kam patříte?",
+   "lines": [
+    "Popište mi proces ve třech větách. Podívám se na to a řeknu vám na rovinu, jestli se automatizace vyplatí."
+   ],
+   "chip": "mini-audit",
+   "foot": "mhruby.eu/mini-audit"
+  }
+ ]
+}

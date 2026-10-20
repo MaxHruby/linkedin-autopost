@@ -1,0 +1,124 @@
+{
+  "timezone": "Europe/Prague",
+  "posts": [
+    {
+      "id": "p1-audit-25-eshopu",
+      "when": "2026-10-29 08:00",
+      "document": {
+        "path": "out/post-1-audit-25-eshopu.pdf",
+        "title": "Audit 25 českých e-shopů"
+      },
+      "text": "Prošel jsem 25 českých e-shopů. Jako zákazník, bez přístupu k jejich číslům. Ke každému jsem sepsal 7 doporučení.\n\nTři témata se v těch sedmi doporučeních opakovala nejčastěji:\n\n1. Práh dopravy zdarma, který nikde nepřipomíná, kolik zákazníkovi chybí (13 z 25 auditů)\n2. Produkty prodávané po jednom, i když k sobě patří. Chybí hotové sety (13 z 25)\n3. Zboží, které dojde, a chybí nabídka předplatného nebo připomenutí (8 z 25)\n\nVidím jen veřejný web, takže symptomy, ne diagnózu. Čísla říkají, v kolika auditech je dané téma mezi sedmi doporučeními.\n\nNic z toho nevyžaduje nový e-shop. Jsou to úpravy na tom, co už máte.\n\nPokud chcete stejný pohled na ten svůj, napište do komentáře „audit“. Projdu ho a pošlu vám 7 konkrétních příležitostí. Zdarma.",
+      "firstComment": "Co dělám a kolik to stojí: https://www.mhruby.eu"
+    },
+    {
+      "id": "p2-chatbot-bez-dat",
+      "when": "2026-11-03 08:00",
+      "image": {
+        "path": "out/post-2-chatbot-bez-dat-01.png",
+        "alt": "Dvě odpovědi na otázku Kde mám objednávku: chatbot bez dat odkáže na e-mail, agent napojený na objednávku odpoví konkrétním časem doručení."
+      },
+      "text": "Častá chyba u AI chatbotů pro e-shopy: nasadí se dřív, než umí odpovědět na jedinou otázku, kterou zákazníci opravdu píšou.\n\n„Kde mám objednávku?“\n\nChatbot, který nevidí stav objednávky, odpoví zdvořile a nic neřekne. Zákazník stejně napíše na podporu. Navíc je naštvaný, protože čekal u robota.\n\nAgent napojený na objednávky a dopravce odpoví konkrétně. A to je přesně ten rozdíl mezi hračkou a něčím, co šetří hodiny.\n\nNež si pořídíte chatbota, zeptejte se sami sebe:\n• Kolik hodin týdně vaše podpora řeší „kde je moje objednávka“?\n• Má bot k dispozici data, nebo jen texty z FAQ?\n• Kdo mu opraví odpověď, až bude špatně?\n\nPokud neumíte odpovědět na první otázku, začněte tím. Automatizace stojí na datech, ne na konverzaci.\n\n(Konverzace na obrázku je ilustrační.)"
+    },
+    {
+      "id": "p3-cenik",
+      "when": "2026-11-05 08:00",
+      "image": {
+        "path": "out/post-3-cena-webu-01.png",
+        "alt": "Ceník: konzultace 1 200 Kč za hodinu, web od 12 000 Kč, AI školení od 12 000 Kč, AI agenti a automatizace od 25 000 Kč."
+      },
+      "text": "U většiny dodavatelů se cenu dozvíte až po třech e-mailech a jednom callu. Já ji mám na webu. U každé služby najdete, pro koho je, jak dlouho trvá, co dostanete a kolik stojí.\n\nPár čísel:\n• Konzultace nebo druhý názor na cizí nabídku: 1 200 Kč za hodinu\n• Web: od 12 000 Kč\n• AI školení nebo školení AI gramotnosti: od 12 000 Kč\n• AI agent, automatizace nebo znalostní báze nad vašimi dokumenty: od 25 000 Kč\n\nCenu hýbou věci jako počet propojených systémů, kvalita dat nebo nároky na bezpečnost. Rozsah i cenu domluvíme před začátkem a změny nacením, než se pustí. Provoz (API modelů, hosting) platíte přímo dodavatelům.\n\nU každé služby je i odstavec „Kdy to nedává smysl“. Když máte pár dotazů týdně, agent se nevyplatí a stačí dobré FAQ. Radši to řeknu hned.\n\nNevíte, kam se vaše situace řadí? Napište dvě věty o tom, co vás zdržuje, a řeknu vám to na rovinu.",
+      "firstComment": "Ceník a postup u každé služby: https://www.mhruby.eu/cenik"
+    },
+    {
+      "id": "p4-druhy-nazor",
+      "when": "2026-11-10 08:00",
+      "document": {
+        "path": "out/post-p4-druhy-nazor.pdf",
+        "title": "Pět otázek k cizí nabídce"
+      },
+      "text": "Dostali jste nabídku na web, aplikaci nebo AI a nevíte, jestli je rozumná? Než ji podepíšete, zeptejte se dodavatele na pět věcí:\n\n1. Co přesně dostanu na konci (kód, přístupy, dokumentace, zaškolení)?\n2. Komu patří kód a přístupy?\n3. Co platím navíc a komu (hosting, licence, spotřeba AI)?\n4. Co se stane, když se změní zadání?\n5. Jak poznáme, že to funguje?\n\nDobrý dodavatel odpoví na všech pět bez vytáček. Pokud ne, je to taky informace.\n\nDělám i druhý názor na cizí nabídky: řeknu, co je přiměřené a kde se platí za zbytečnou složitost. 1 200 Kč za hodinu, bez závazku, skončit můžete po první hodině. Napište „druhý názor“ nebo mi nabídku pošlete rovnou.",
+      "firstComment": "Konzultace a druhý názor: https://www.mhruby.eu/web-a-konzultace"
+    },
+    {
+      "id": "p5-ai-v-tymu",
+      "when": "2026-11-12 08:00",
+      "document": {
+        "path": "out/post-p5-ai-v-tymu.pdf",
+        "title": "Tři otázky o AI v týmu"
+      },
+      "text": "„Lidé u nás AI používají nahodile a nikdo neví, co je správně.“ Tahle věta je jednou z devíti, kterými začíná většina mých zakázek.\n\nTři otázky, na které by firma měla znát odpověď:\n1. Které AI nástroje tým používá a k čemu?\n2. Jaká data se do nich smí vkládat?\n3. Kdo kontroluje výstup, než odejde ke klientovi?\n\nEvropské nařízení o AI (AI Act) vede organizace k tomu, aby lidé, kteří s AI pracují, rozuměli jejím možnostem a rizikům. Právní výklad nechte na právníkovi. Praktický základ a záznam o proškolení vám dám já: půlden až dva dny na vašich skutečných úlohách, od 12 000 Kč.\n\nOzvěte se, pošlu osnovu. Stačí napsat „školení“.",
+      "firstComment": "Školení AI a AI gramotnosti: https://www.mhruby.eu/ai-skoleni"
+    },
+    {
+      "id": "p6-kdy-nedelat",
+      "when": "2026-11-17 08:00",
+      "document": {
+        "path": "out/post-p6-kdy-nedelat.pdf",
+        "title": "Kdy automatizaci nedělat"
+      },
+      "text": "Dělám automatizace a AI agenty a na každé stránce služby mám odstavec „Kdy to nedává smysl“. Proč? Protože zbytečný projekt je horší než žádný.\n\nAutomatizaci ani agenta nedělejte, když:\n• se proces mění každý týden (nejdřív ho ustalte)\n• děláte pár kroků měsíčně (ruční práce vyjde levněji)\n• dotazů je pár týdně (stačí dobré FAQ)\n• nemáte podklady ani člověka, který ví, jak se věci dělají\n• chcete stoprocentní přesnost bez lidské kontroly\n\nNejste si jistí, kam patříte? Napište mi tři věci: co ve firmě děláte ručně, kolik času to bere a jaké nástroje při tom používáte. Podívám se na to a řeknu vám na rovinu, jestli se to vyplatí. Stačí napsat „mini-audit“.",
+      "firstComment": "Mini-audit (3 otázky): https://www.mhruby.eu/mini-audit"
+    },
+    {
+      "id": "p7-dokumenty-se-zdrojem",
+      "when": "2026-11-19 08:00",
+      "document": {
+        "path": "out/post-p7-dokumenty-se-zdrojem.pdf",
+        "title": "Znalostní báze se zdrojem"
+      },
+      "text": "Zkusili jste nahrát firemní dokumenty do obecného AI nástroje? Odpovědi mívají dva problémy: nemají zdroj, a když podklad chybí, nástroj si často domyslí.\n\nFiremní znalostní báze (RAG) funguje jinak:\n• hledá významem, takže najde pasáž i při jiných slovech, než jsou v dokumentu\n• u každé odpovědi ukáže dokument, stranu a verzi\n• když podklad chybí, přizná, že odpověď nezná\n\nTři věci, které rozhodnou o kvalitě: aktuálnost verzí, oprávnění (kdo co smí vidět) a měření správnosti na vašich skutečných otázkách, ne na ukázkách.\n\nZkušenost mám i z vlastního produktu. Pokud máte dokumenty, které nikdo nemůže najít, napište „dokumenty“. Úvodní hovor je zdarma.",
+      "firstComment": "Znalostní báze a RAG: https://www.mhruby.eu/data-rag"
+    },
+    {
+      "id": "p8-objednavky-z-emailu",
+      "when": "2026-11-24 08:00",
+      "document": {
+        "path": "out/post-p8-objednavky-z-emailu.pdf",
+        "title": "Objednávky z e-mailu: před a po"
+      },
+      "text": "Modelová situace (ilustrace, ne konkrétní klient): dodavatel dostává objednávky e-mailem, někdy v těle zprávy, jindy v příloze. Dvě kolegyně je každý den přepisují do skladového systému.\n\nJak to může vypadat s AI automatizací:\n• AI přečte e-mail i přílohu a vytáhne položky a množství\n• zkontroluje je proti katalogu a zákazníkovi\n• jasné objednávky založí v systému\n• nejasné pošle kolegyni s označením, co chybí\n\nRutinní objednávky se zakládají samy, kolegyně řeší jen výjimky a každý krok je dohledatelný. AI navrhuje, pravidla kontrolují a člověk potvrzuje citlivé kroky.\n\nMáte podobný proces? Napište „mini-audit“ a tři věci: co děláte ručně, kolik času to bere a jaké nástroje používáte.",
+      "firstComment": "Mini-audit (3 otázky): https://www.mhruby.eu/mini-audit"
+    },
+    {
+      "id": "p9-audity-ktere-nelzou",
+      "when": "2026-11-26 08:00",
+      "document": {
+        "path": "out/post-p9-audity-ktere-nelzou.pdf",
+        "title": "Jak dělám audity, které nelžou"
+      },
+      "text": "Audit, který tvrdí nepravdu, je horší než žádný audit. Proto mám na svoje audity e-shopů čtyři pravidla:\n\n1. Maximálně pět ověřitelných faktů. Každý má odkaz a screenshot. Všechno ostatní označím jako názor nebo otázku.\n2. Do firmy nevidím, tak se ptám. Marži ani vnitřní procesy zvenku netvrdím. Místo diagnózy píšu dvě otázky pro majitele.\n3. Nález se dá ověřit za minutu: odkaz, živá stránka, porovnat větu.\n4. První čtyři audity jsem kontroloval do hloubky, větu po větě. Důvěra se vydělává, neslibuje.\n\nVýsledek je kratší audit, než by byl bez pravidel. Ale takový, který se dá ověřit.\n\nChcete ho pro svůj e-shop? Napište „audit“.",
+      "firstComment": "Co dělám a kolik to stojí: https://www.mhruby.eu"
+    },
+    {
+      "id": "p10-web-pro-ai-vyhledavani",
+      "when": "2026-12-01 08:00",
+      "document": {
+        "path": "out/post-p10-web-pro-ai-vyhledavani.pdf",
+        "title": "Web pro AI vyhledávání"
+      },
+      "text": "Lidé se dnes stále častěji ptají ChatGPT, Perplexity nebo Googlu s AI, koho si najmout. Proto jsem svůj web připravil i pro ně:\n\n• soubor llms.txt: stručný přehled pro AI (kdo jsem, co nabízím, ceny, odkazy)\n• každá služba i jako čistý text bez designu\n• strukturovaná data schema.org (osoba, služby, ceník, časté dotazy)\n• česká a anglická verze propojené tak, aby se nepletly\n\nZaručit, že vás AI doporučí, nemůže nikdo poctivě. Můžete ale zajistit, aby měla z čeho číst.\n\nU nových webů je technické SEO a strukturovaná data v ceně, od 12 000 Kč. Kód zůstává vám. Napište „web“.",
+      "firstComment": "Tvorba webů: https://www.mhruby.eu/tvorba-webovych-stranek"
+    },
+    {
+      "id": "p11-reklama-a-poptavky",
+      "when": "2026-12-03 08:00",
+      "document": {
+        "path": "out/post-p11-reklama-a-poptavky.pdf",
+        "title": "Reklama a poptávky"
+      },
+      "text": "„Platíme reklamu, ale nevíme, kolik poptávek přinesla.“ Je to jedna z devíti vět, kterými začíná většina mých zakázek. A odpověď bývá podobná: neměří se to, co se měřit má.\n\nTři věci, které měřit, než přidáte rozpočet:\n1. Poptávky (formulář, telefon, e-mail), ne kliky a zobrazení.\n2. Cenu poptávky proti tomu, kolik je pro vás zákazník hoden.\n3. Rychlost reakce. Čím dřív se ozvete, tím větší šance na obchod, takže poptávka patří hned do CRM s upozorněním obchodníkovi.\n\nA ještě jedna věc: reklama by neměla vést na obecný web. Stránka a reklama mají říkat totéž.\n\nPřipravuju kampaně na Metě od kreativy po měření, příprava od 15 000 Kč, rozpočet na reklamu platíte přímo Metě. Napište „reklama“ a tři věty o kampani.",
+      "firstComment": "Meta reklamy a měření: https://www.mhruby.eu/reklamy"
+    },
+    {
+      "id": "p12-jak-probiha-spoluprace",
+      "when": "2026-12-08 08:00",
+      "document": {
+        "path": "out/post-p12-jak-probiha-spoluprace.pdf",
+        "title": "Jak probíhá spolupráce"
+      },
+      "text": "Jak probíhá spolupráce se mnou, bez černé skříňky:\n\n1. Úvodní hovor: 30 minut, zdarma. Popíšete, co řešíte, já řeknu, jestli a jak můžu pomoct. Bez prodejního tlaku.\n2. Návrh a nabídka: písemně, co se udělá, co dostanete, za kolik a dokdy. Cena a rozsah platí před začátkem.\n3. Stavba po krocích: průběžně ukazuji hotové části a zpětnou vazbu zapracovávám hned.\n4. Předání: dostanete kód, přístupy, dokumentaci a krátké zaškolení.\n5. Péče (volitelně): po spuštění zůstávám k ruce.\n\nS kým se mi pracuje dobře: máte konkrétní problém, který stojí čas nebo peníze, a berete AI jako nástroj, ne zázrak. S kým spíš ne: chcete garanci prvního místa na Googlu, nebo nejlevnější variantu bez ohledu na kvalitu.\n\nNapište „hovor“ a pár vět o tom, co vás zdržuje.",
+      "firstComment": "Přehled služeb a postup: https://www.mhruby.eu/sluzby"
+    }
+  ]
+}

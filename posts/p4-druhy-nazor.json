@@ -1,0 +1,52 @@
+{
+ "id": "p4-druhy-nazor",
+ "label": "Druhý názor",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Poznáváte se?",
+   "title": "Dostali jsme nabídku a nevíme, *jestli je rozumná.*",
+   "sub": "Pět otázek, které si před podpisem položit. Platí pro web, aplikaci i AI."
+  },
+  {
+   "type": "point",
+   "n": "1",
+   "h": "Co přesně dostanu na konci?",
+   "p": "Funkční řešení, zdrojový kód, přístupy, dokumentaci a zaškolení? *Co v nabídce není napsané, nedostanete.*"
+  },
+  {
+   "type": "point",
+   "n": "2",
+   "h": "Komu patří kód a přístupy?",
+   "p": "Po zaplacení by mělo všechno patřit vám. Ptejte se na přístup k doméně, hostingu i repozitáři."
+  },
+  {
+   "type": "point",
+   "n": "3",
+   "h": "Co platím navíc a komu?",
+   "p": "Doména, hosting, licence nástrojů a spotřeba AI se obvykle platí přímo dodavatelům. *Chtějte odhad měsíčních nákladů předem.*"
+  },
+  {
+   "type": "point",
+   "n": "4",
+   "h": "Co se stane, když se zadání změní?",
+   "p": "Změny mají být nacené dřív, než se na nich začne pracovat. Ne až na faktuře."
+  },
+  {
+   "type": "point",
+   "n": "5",
+   "h": "Jak poznáme, že to funguje?",
+   "p": "Dohodněte měřitelné kritérium: kolik času to ušetří, kolik dotazů odbaví, kolik poptávek přinese. A kdy se to měří."
+  },
+  {
+   "type": "cta",
+   "title": "Chcete na nabídku druhý názor?",
+   "lines": [
+    "Pošlete mi ji a řeknu vám, co je přiměřené a kde se platí za zbytečnou složitost.",
+    "1 200 Kč za hodinu. Bez závazku, skončit můžete po první hodině."
+   ],
+   "chip": "druhý názor",
+   "foot": "mhruby.eu"
+  }
+ ]
+}

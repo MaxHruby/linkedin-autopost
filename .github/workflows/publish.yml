@@ -1,0 +1,57 @@
+name: Publikace na LinkedIn
+
+on:
+  schedule:
+    # každých 30 minut v pracovní dny, 5:00-17:30 UTC (7:00-19:30 pražského času v zimě)
+    - cron: '*/30 5-17 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: linkedin-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Publikovat posty, kterým nastal čas
+        id: publish
+        run: node publish.mjs --send
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
+          LINKEDIN_TOKEN_EXPIRES: ${{ vars.LINKEDIN_TOKEN_EXPIRES }}
+          PUBLISHING_PAUSED: ${{ vars.PUBLISHING_PAUSED }}
+
+      - name: Uložit stav (co už vyšlo)
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain state)" ]; then
+            git config user.name "linkedin-autopost"
+            git config user.email "linkedin-autopost@users.noreply.github.com"
+            git add state
+            git commit -m "chore: stav publikovaných postů"
+            git push
+          fi
+
+      - name: Upozornit na blížící se vypršení tokenu
+        if: always() && steps.publish.outputs.token_days_left != '' && fromJSON(steps.publish.outputs.token_days_left) <= 10
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(gh issue list --state open --search 'Obnov LinkedIn token in:title' --json number --jq '.[].number')" ]; then
+            gh issue create \
+              --title "Obnov LinkedIn token (vyprší za ${{ steps.publish.outputs.token_days_left }} dní)" \
+              --body "Vygeneruj nový token (LinkedIn Developer Portal -> Tools -> Token generator, scopy openid, profile, w_member_social), nahraj ho do Secrets jako LINKEDIN_ACCESS_TOKEN a aktualizuj proměnnou LINKEDIN_TOKEN_EXPIRES. Postup je v README.md."
+          fi

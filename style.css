@@ -1,0 +1,54 @@
+@font-face{font-family:'Fraunces';font-weight:100 900;font-display:block;src:url(fonts/fraunces-latin-ext-wght-normal.woff2) format('woff2-variations');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Fraunces';font-weight:100 900;font-display:block;src:url(fonts/fraunces-latin-wght-normal.woff2) format('woff2-variations');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Inter';font-weight:100 900;font-display:block;src:url(fonts/inter-latin-ext-wght-normal.woff2) format('woff2-variations');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Inter';font-weight:100 900;font-display:block;src:url(fonts/inter-latin-wght-normal.woff2) format('woff2-variations');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+:root{
+  --bg:#f4f0e8; --bg-2:#ece6d9; --surface:#fbf9f4; --ink:#15130f; --ink-2:#26231d;
+  --muted:#5b564b; --muted-2:#8b857a; --line:rgba(21,19,15,.16);
+  --accent:#ff4f1f; --accent-text:#c63a0f; --sage:#dde4d3;
+  --font:'Inter',system-ui,sans-serif; --display:'Fraunces',Georgia,serif;
+}
+@page{size:1080px 1350px;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#d9d3c5}
+body{font-family:var(--font);color:var(--ink);-webkit-font-smoothing:antialiased}
+.slide{width:1080px;height:1350px;background:var(--bg);position:relative;padding:72px 84px 72px;display:flex;flex-direction:column;overflow:hidden;page-break-after:always;break-after:page}
+.slide.dark{background:var(--ink);color:var(--bg)}
+.top,.bot{display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:22px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.dark .top,.dark .bot{color:#b9b2a3}
+.top b{color:var(--ink);font-weight:700}
+.dark .top b{color:var(--bg)}
+.dot{display:inline-block;width:14px;height:14px;background:var(--accent);margin-right:14px;transform:translateY(1px)}
+.main{flex:1;display:flex;flex-direction:column;justify-content:center;min-height:0}
+.main.top-aligned{justify-content:flex-start;padding-top:56px}
+.bot{border-top:1.5px solid var(--line);padding-top:26px}
+.dark .bot{border-color:rgba(244,240,232,.2)}
+h1,h2{font-family:var(--display);font-weight:600;letter-spacing:-.025em;line-height:1.03;font-variation-settings:'opsz' 144}
+h1{font-size:112px}
+h2{font-size:84px}
+h1 em,h2 em{font-style:normal;color:var(--accent)}
+.lead{font-size:40px;line-height:1.38;color:var(--ink-2);max-width:880px}
+.dark .lead{color:#d6cfc0}
+.p{font-size:38px;line-height:1.42;color:var(--ink-2)}
+.muted{color:var(--muted)}
+.tag{display:inline-block;font-weight:700;font-size:22px;letter-spacing:.14em;text-transform:uppercase;border:2px solid var(--ink);padding:10px 18px;border-radius:999px}
+.tag.fill{background:var(--accent);border-color:var(--accent);color:var(--ink)}
+
+/* 5x5 sample grid: every cell = one audited shop */
+.grid{display:grid;grid-template-columns:repeat(5,64px);gap:12px}
+.grid i{display:block;width:64px;height:64px;border:2px solid var(--ink);background:transparent}
+.grid i.on{background:var(--accent);border-color:var(--ink);box-shadow:4px 4px 0 var(--ink)}
+.dark .grid i{border-color:#6b655a}
+.dark .grid i.on{border-color:var(--bg);box-shadow:4px 4px 0 var(--bg)}
+
+.bignum{font-family:var(--display);font-weight:600;line-height:.82;letter-spacing:-.05em;color:var(--accent);font-variation-settings:'opsz' 144}
+.fix{background:var(--surface);border:2px solid var(--ink);box-shadow:8px 8px 0 var(--ink);padding:40px 44px;border-radius:6px}
+.fix .k{font-weight:700;font-size:22px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-text);margin-bottom:18px}
+.fix .p{font-size:38px}
+.rule{height:2px;background:var(--ink);width:100%}
+
+.top-aligned .grid{grid-template-columns:repeat(5,52px);gap:10px}
+.top-aligned .grid i{width:52px;height:52px}
+.top-aligned .fix .p{font-size:34px}
+.top-aligned>.p{font-size:34px}

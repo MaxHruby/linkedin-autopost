@@ -1,0 +1,4 @@
+.env
+node_modules/
+out/pdf-jednotlive/
+out/contact-*

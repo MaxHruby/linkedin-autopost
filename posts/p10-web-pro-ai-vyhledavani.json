@@ -1,0 +1,51 @@
+{
+ "id": "p10-web-pro-ai-vyhledavani",
+ "label": "Web pro AI vyhledávání",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Za oponou",
+   "title": "Svůj web jsem připravil i *pro AI vyhledávání.*",
+   "sub": "Lidé se dnes ptají ChatGPT nebo Perplexity, koho si najmout. Co jsem na webu udělal."
+  },
+  {
+   "type": "list",
+   "title": "Čtyři věci, které jsem udělal",
+   "items": [
+    {
+     "h": "Soubor llms.txt",
+     "p": "Stručný přehled pro AI: kdo jsem, co nabízím, ceny a odkazy na služby."
+    },
+    {
+     "h": "Každá služba i jako čistý text",
+     "p": "Verze bez designu, kterou AI přečte bez šumu."
+    },
+    {
+     "h": "Strukturovaná data",
+     "p": "Schema.org: osoba, služby, ceník a časté dotazy."
+    },
+    {
+     "h": "Čeština a angličtina",
+     "p": "Obě verze propojené, aby se nepletly."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "title": "Zaručit citaci nemůže nikdo.",
+   "body": [
+    "Nikdo poctivě neslíbí, že vás ChatGPT doporučí. Můžete ale zajistit, aby měl z čeho číst: srozumitelný obsah, jasná data a čistou strukturu."
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Chcete stejný základ pro svůj web?",
+   "lines": [
+    "Web od 12 000 Kč, technické SEO a strukturovaná data jsou v ceně.",
+    "Kód zůstává vám."
+   ],
+   "chip": "web",
+   "foot": "mhruby.eu"
+  }
+ ]
+}

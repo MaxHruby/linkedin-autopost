@@ -1,0 +1,47 @@
+{
+ "id": "p11-reklama-a-poptavky",
+ "label": "Reklama a poptávky",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Poznáváte se?",
+   "title": "Platíme reklamu, ale nevíme, *kolik poptávek přinesla.*",
+   "sub": "Tři věci, které měřit, než přidáte rozpočet."
+  },
+  {
+   "type": "point",
+   "n": "1",
+   "h": "Poptávky, ne kliky.",
+   "p": "Měřte formulář, telefon a e-mail. Zobrazení a prokliky ještě nejsou obchod."
+  },
+  {
+   "type": "point",
+   "n": "2",
+   "h": "Cenu poptávky proti hodnotě zákazníka.",
+   "p": "Kolik je pro vás poptávka hodna? Bez té odpovědi nepoznáte, jestli je její cena v pořádku."
+  },
+  {
+   "type": "point",
+   "n": "3",
+   "h": "Rychlost reakce.",
+   "p": "Poptávka se má hned zapsat do CRM a obchodník dostat upozornění. *Čím dřív se ozvete, tím větší šance na obchod.*"
+  },
+  {
+   "type": "statement",
+   "title": "Reklama vede na obecný web? Návštěvník nenajde, co hledal.",
+   "body": [
+    "Stránka a reklama mají říkat totéž: jedno sdělení, důvěra a jedna akce."
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Chcete vědět, kde se poptávky ztrácejí?",
+   "lines": [
+    "Napište tři věty o své kampani a řeknu vám, co bych měřil jako první.",
+    "Příprava kampaní od 15 000 Kč. Rozpočet na reklamu platíte přímo Metě."
+   ],
+   "chip": "reklama",
+   "foot": "mhruby.eu/reklamy"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "linkedin-autopost",
+  "private": true,
+  "type": "module",
+  "description": "Plánování a publikace LinkedIn postů přes oficiální API (GitHub Actions, zdarma)",
+  "scripts": {
+    "check": "node publish.mjs",
+    "render": "node render.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.50.0"
+  }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "p5-ai-v-tymu",
+ "label": "AI v týmu",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Poznáváte se?",
+   "title": "Lidé u nás AI používají *nahodile.*",
+   "sub": "Tři otázky, na které by firma měla znát odpověď."
+  },
+  {
+   "type": "point",
+   "n": "1",
+   "h": "Které AI nástroje tým používá a k čemu?",
+   "p": "Nejen ty, které jste schválili. Zeptejte se přímo lidí, ne jen IT."
+  },
+  {
+   "type": "point",
+   "n": "2",
+   "h": "Jaká data se do nich smí vkládat?",
+   "p": "Osobní údaje, smlouvy, ceníky klientů. Když to nikdo neřekl nahlas, každý si to vyloží po svém."
+  },
+  {
+   "type": "point",
+   "n": "3",
+   "h": "Kdo kontroluje výstup, než odejde ke klientovi?",
+   "p": "AI se občas mýlí a zní přitom jistě. *Ověřování výstupu je návyk, který se dá naučit.*"
+  },
+  {
+   "type": "statement",
+   "title": "Evropské nařízení o AI chce, aby lidé, kteří s AI pracují, rozuměli jejím možnostem a rizikům.",
+   "body": [
+    "Pravidla a doklad o proškolení se vám hodí tak či tak. Právní výklad nechte na právníkovi. Praktický základ dám já."
+   ],
+   "dark": true
+  },
+  {
+   "type": "cta",
+   "title": "Praktické školení na vašich úlohách",
+   "lines": [
+    "Půlden až dva dny, online nebo u vás, 3–20 lidí.",
+    "Od 12 000 Kč. Osnova, materiály, šablony a záznam o účasti."
+   ],
+   "chip": "školení",
+   "foot": "mhruby.eu/ai-skoleni"
+  }
+ ]
+}
